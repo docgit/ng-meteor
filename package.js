@@ -5,7 +5,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('coffeescript');
     api.add_files(path.join('lib', 'angular.js'), 'client');
-    api.add_files('ng-meteor.coffee', 'client');
+    api.add_files('ng-meteor.js', 'client');
 });
